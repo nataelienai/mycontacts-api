@@ -30,7 +30,7 @@ cd mycontacts-api
 
 - Na primeira vez, execute o comando:
 ```sh
-docker run -v ./src/database/schema.sql:/docker-entrypoint-initdb.d/schema.sql --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres
+docker run -v ./src/database/schema.sql:/docker-entrypoint-initdb.d/schema.sql --name pg -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -e POSTGRES_DB=mycontacts -p 5432:5432 -d postgres
 ```
 
 - Nas outras, basta executar o comando:
