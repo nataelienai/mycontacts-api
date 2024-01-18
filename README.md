@@ -81,18 +81,18 @@ Aqui estão exemplos de uso de cada rota da API:
 
 - **Buscar todas as categorias**:
 
-```sh
+```http
 GET /categories
 ```
 
 - **Buscar uma categoria**:
 
-```sh
+```http
 GET /categories/945f2528-2d90-45aa-9c8a-7140e4490e78
 ```
 
 - **Criar uma categoria**:
-```sh
+```http
 POST /categories
 Content-Type: application/json
 
@@ -102,7 +102,7 @@ Content-Type: application/json
 ```
 
 - **Atualizar uma categoria**:
-```sh
+```http
 PUT /categories/945f2528-2d90-45aa-9c8a-7140e4490e78
 Content-Type: application/json
 
@@ -112,7 +112,7 @@ Content-Type: application/json
 ```
 
 - **Excluir uma categoria**:
-```sh
+```http
 DELETE /categories/945f2528-2d90-45aa-9c8a-7140e4490e78
 ```
 
@@ -120,18 +120,18 @@ DELETE /categories/945f2528-2d90-45aa-9c8a-7140e4490e78
 
 - **Buscar todos os contatos**:
 
-```sh
+```http
 GET /contacts
 ```
 
 - **Buscar um contato**:
 
-```sh
+```http
 GET /contacts/945f2528-2d90-45aa-9c8a-7140e4490e78
 ```
 
 - **Criar um contato**:
-```sh
+```http
 POST /contacts
 Content-Type: application/json
 
@@ -144,7 +144,7 @@ Content-Type: application/json
 ```
 
 - **Atualizar um contato**:
-```sh
+```http
 PUT /contacts/945f2528-2d90-45aa-9c8a-7140e4490e78
 Content-Type: application/json
 
@@ -157,6 +157,6 @@ Content-Type: application/json
 ```
 
 - **Excluir um contato**:
-```sh
+```http
 DELETE /contacts/945f2528-2d90-45aa-9c8a-7140e4490e78
 ```
