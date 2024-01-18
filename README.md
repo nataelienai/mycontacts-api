@@ -136,10 +136,10 @@ POST /contacts
 Content-Type: application/json
 
 {
-	"name": "Natã",
-	"email": "nata@email.com",
-	"phone": "(12) 99999-9999",
-	"category_id": "197a0d11-9715-4e01-933f-a30ce9c6b06b",
+  "name": "Natã",
+  "email": "nata@email.com",
+  "phone": "(12) 99999-9999",
+  "category_id": "197a0d11-9715-4e01-933f-a30ce9c6b06b",
 }
 ```
 
@@ -149,10 +149,10 @@ PUT /contacts/945f2528-2d90-45aa-9c8a-7140e4490e78
 Content-Type: application/json
 
 {
-	"name": "Natã",
-	"email": "nata@email.com",
-	"phone": "(12) 98888-8888",
-	"category_id": "197a0d11-9715-4e01-933f-a30ce9c6b06b",
+  "name": "Natã",
+  "email": "nata@email.com",
+  "phone": "(12) 98888-8888",
+  "category_id": "197a0d11-9715-4e01-933f-a30ce9c6b06b",
 }
 ```
 
